@@ -1,0 +1,24 @@
+{
+  "name": "apollo_server_graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KevenMarioN/apollo_server_graphql.git",
+  "author": "KevenMarioN <kevenmario.n.r@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx nodemon --exec babel-node src/index.js -e js,gql"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11"
+  },
+  "dependencies": {
+    "@graphql-tools/load-files": "^6.5.3",
+    "apollo-server": "^3.6.7",
+    "graphql": "15.8.0",
+    "merge-graphql-schemas": "^1.7.8",
+    "mongoose": "^6.2.9"
+  }
+}
