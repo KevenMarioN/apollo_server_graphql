@@ -1,4 +1,5 @@
-import { ApolloServer, PubSub } from "apollo-server";
+import { ApolloServer } from "apollo-server";
+import { PubSub } from "graphql-subscriptions";
 import mongoose from "mongoose";
 
 function startServer({typeDefs,resolvers}) {
